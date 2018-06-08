@@ -7,7 +7,7 @@ import {
     types
 } from "../../lib";
 // import { Apis } from 'bitsharesjs-ws';
-import {Apis, ChainConfig} from "bitsharesjs-ws";
+import {Apis, ChainConfig} from "wcjs-ws";
 import assert from "assert";
 
 describe("issue13", function() {

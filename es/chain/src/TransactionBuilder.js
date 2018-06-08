@@ -3,7 +3,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 import assert from "assert";
 import { Signature, PublicKey, hash } from "../../ecc";
 import { ops } from "../../serializer";
-import { Apis, ChainConfig } from "bitsharesjs-ws";
+import { Apis, ChainConfig } from "wcjs-ws";
 import ChainTypes from "./ChainTypes";
 var Buffer = require("safe-buffer").Buffer;
 
