@@ -14,7 +14,7 @@
         "test:serializer": "cross-env BABEL_ENV=test mocha --compilers js:babel-register ./test/serializer --recursive",
         "test:watch": "npm test -- --watch",
         "clean": "rimraf dist build es",
-        "prebuild": "npm run build",
+        "prebuild": "npm run clean",
         "build": "cross-env BABEL_ENV=cjs babel lib -d dist",
         "build-es": "cross-env BABEL_ENV=es babel lib -d es",
         "postbuild": "npm run browserify && npm run build-es",
